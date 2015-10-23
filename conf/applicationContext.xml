@@ -17,9 +17,10 @@
                     implementor="services.hello.HelloWorldImpl"/>
 
     <!-- Define add endpoint. It will be available at http://localhost:9000/service/add -->
-    <jaxws:endpoint name="add"
+    <jaxws:endpoint name="calculator"
                     transportId="http://schemas.xmlsoap.org/soap/http"
                     address="/service/calculator"
-                    implementor="services.calculator.AddImpl"/>                    
+                    implementor="services.calculator.CalculatorImpl"/>
+
 
 </beans>
