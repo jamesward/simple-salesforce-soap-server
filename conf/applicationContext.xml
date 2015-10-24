@@ -16,11 +16,16 @@
                     address="/service/hello"
                     implementor="services.hello.HelloWorldImpl"/>
 
-    <!-- Define add endpoint. It will be available at http://localhost:9000/service/add -->
+    <!-- Define add endpoint. It will be available at http://localhost:9000/service/calculator -->
     <jaxws:endpoint name="calculator"
                     transportId="http://schemas.xmlsoap.org/soap/http"
                     address="/service/calculator"
                     implementor="services.calculator.CalculatorImpl"/>
 
+    <!-- Define add endpoint. It will be available at http://localhost:9000/service/calculator -->
+    <jaxws:endpoint name="cats"
+                    transportId="http://schemas.xmlsoap.org/soap/http"
+                    address="/service/cats"
+                    implementor="services.cats.CatsImpl"/>
 
 </beans>
