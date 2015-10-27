@@ -4,6 +4,7 @@ package services.calculator;
 import javax.jws.WebService;
 
 @WebService(endpointInterface = "services.calculator.Calculator")
+@BindingType(javax.xml.ws.soap.SOAPBinding.SOAP11HTTP_BINDING)
 public class CalculatorImpl implements Calculator {
 
     @Override
