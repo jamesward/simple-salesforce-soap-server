@@ -5,4 +5,4 @@ I often find myself wanting to test Saleforce's Web Service function but have pr
 
 Warning: this is a very simple server and most of the functionality is mocked.
 
-I am currently unable to get Java to generate the WSDL file automatically with the endpoint address so I [added it my self](https://github.com/jeffdonthemic/simple-salesforce-soap-server/blob/master/public/calculator.xml#L174) and made it publicly available.
+I am currently unable to get Java to generate the WSDL file automatically with the endpoint address so I [added it my self](https://github.com/jeffdonthemic/simple-salesforce-soap-server/blob/master/public/calculator.xml#L174) and made it publicly available. 
