@@ -23,6 +23,12 @@
                     implementor="services.calculator.CalculatorImpl"/>
 
     <!-- Define add endpoint. It will be available at http://localhost:9000/service/calculator -->
+    <jaxws:endpoint name="parks"
+                    transportId="http://schemas.xmlsoap.org/soap/http"
+                    address="/service/parks"
+                    implementor="services.parks.ParksImpl"/>
+
+    <!-- Define add endpoint. It will be available at http://localhost:9000/service/calculator -->
     <jaxws:endpoint name="cats"
                     transportId="http://schemas.xmlsoap.org/soap/http"
                     address="/service/cats"
