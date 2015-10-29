@@ -171,6 +171,7 @@
   </wsdl:binding>
   <wsdl:service name="CalculatorImplService">
     <wsdl:port binding="tns:CalculatorImplServiceSoapBinding" name="CalculatorImplPort">
+      <soap:address location="https://th-apex-soap-service.herokuapp.com/service/calculator"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
